@@ -4,7 +4,7 @@ ForAmount is a npm package which can be used to format and display amount
 according to your language set. Is more powerful when localizing your website,
 hence displaying cost according to the language and country selected.
 
-### [View the live demo](https://)
+### [View the live demo](https://oqnmm.csb.app/)
 
 ## How to use:
 
