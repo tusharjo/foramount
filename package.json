@@ -1,0 +1,36 @@
+{
+  "name": "foramount",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "source": "src/index.js",
+  "files": [
+    "index.cjs.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tusharjo/foramount.git"
+  },
+  "author": "Tushar J",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tusharjo/foramount/issues"
+  },
+  "homepage": "https://github.com/tusharjo/foramount#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@rollup/plugin-babel": "^5.2.2",
+    "rollup": "^2.35.1",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
