@@ -1,6 +1,6 @@
 {
   "name": "foramount",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -16,6 +16,12 @@
     "type": "git",
     "url": "git+https://github.com/tusharjo/foramount.git"
   },
+  "keywords": [
+    "amount",
+    "format money",
+    "formatter",
+    "currency"
+  ],
   "author": "Tushar J",
   "license": "ISC",
   "bugs": {
