@@ -3,20 +3,41 @@
 ForAmount is a npm package which can be used to format and display amount
 according to your language set. Is more powerful when localizing your website,
 hence displaying cost according to the language and country selected.
+<br /><br />
 
 ### [View the live demo](https://oqnmm.csb.app/)
 
+<br />
+
 ## How to use:
+
+### As a React Component
+
+<hr />
 
 `import Formatter from "foramount";`
 
-Then use the component by passing appropriate props as described below:
-
-### Example:
+#### Example in react:
 
 `<Formatter amount="200000" currency="INR" locale="en-IN" />`
 
-Props:
+<br />
+
+### In NodeJS
+
+<hr />
+
+`const formatter = require("foramount");`
+
+#### Example in NodeJS:
+
+`formatter({amount: "200", currency: "INR" locale: "en-IN" });`
+
+<br />
+
+### Props:
+
+<hr />
 
 | Props           | Values                                                                                           | Description                                                            |
 | --------------- | ------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------- |
